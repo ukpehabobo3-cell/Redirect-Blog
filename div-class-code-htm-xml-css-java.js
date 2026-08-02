@@ -28,7 +28,7 @@
   "My brother won ₦6,000 yesterday. This is real!",
   "Who else is applying for the ₦6,000 🔥",
   "I received my data bonus this morning. Thanks for this giveaway!",
-  "Congratulations to PalmPay & Jarvis! Such a beautiful way to celebrate 🎉",
+  "Congratulations to PalmPay! Such a beautiful way to celebrate 🎉",
   "I have shared with all my WhatsApp groups. Waiting for approval now.",
   "I got the ₦6,000 reward. God bless you all!",
   "This giveaway is making so many Nigerians smile. ❤️",
@@ -49,7 +49,7 @@ const REPLIES = [
   "I hope I get the ₦6,000 cash transfer 🤞",
   "Thanks for confirming. I'm applying now.",
   "I just shared to my WhatsApp groups too ",
-  "Congratulations to PalmPay & Jarvis! ❤️",
+  "Congratulations to PalmPay! ❤️",
   "This is one of the best customers giveaways this year.",
   "Can't wait to receive my reward. Good luck everyone! 🔥"
 ];
