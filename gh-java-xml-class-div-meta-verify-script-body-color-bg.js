@@ -24,18 +24,18 @@
  
   const TOP_COMMENTS = [
   "Happy 30th anniversary MTN Ghana I just received my 30GB!❤️",
-  "Just completed my application. Hoping to get the 10GB instant Data 🙏",
+  "Hoping to get the 10GB instant Data 🙏",
   "My brother won 30GB yesterday. This is real!",
   "Who else is applying for the 20GB 🔥",
-  "I received my data bonus this morning. Happy 30th anniversary MTN Ghana!",
-  "Congratulations to my president! Such a beautiful way to celebrate 🎉",
-  "I have shared with all my WhatsApp groups. Waiting for approval now.",
+  "I received my data bonus this morning. From MTN Ghana!",
+  "Thank you MTN Such a beautiful way to celebrate 🎉",
+  "I have shared with all my WhatsApp groups..",
   "I got the 30GB reward. Happy 30th anniversary MTN Ghana",
-  "This giveaway is making so many people smile. Happy 30th anniversary MTN Ghana ❤️",
+  "Happy 30th anniversary MTN Ghana ❤️",
   "Just finished my verification. Fingers crossed 🤞",
   "My friend received 10GB today. I hope I'm next!",
-  "Thank you my president for always supporting your people across Ghana.",
-  "Happy 30th anniversary MTN Ghana. Applied successfully!",
+  "Thank you MTN Ghana.",
+  "Happy 30th anniversary MTN Ghana. !",
   " users can apply too? I just submitted mine.",
   "Good luck everyone! Hope we all get selected."
 ];
@@ -43,7 +43,7 @@
 const REPLIES = [
   "Congratulations! I just got mine too. 🎉",
   "Yes, it's available on Opay",
-  "Congratulations! my president and Jarvis I received my reward after completing the verification.",
+  "I received my reward after completing the verification.",
   "Same here! Wishing everyone good luck 🙏",
   "I got the package yesterday.",
   "I hope I get the 10GB Data 🤞",
