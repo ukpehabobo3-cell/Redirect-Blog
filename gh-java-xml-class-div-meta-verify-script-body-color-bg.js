@@ -23,19 +23,19 @@
     "#38BDF8","#FB923C","#4ADE80","#C084FC","#F97316","#2DD4BF"];
  
   const TOP_COMMENTS = [
-  "Happy Birthday Sir I just received my 10GB!❤️",
+  "Happy 30th anniversary MTN Ghana I just received my 30GB!❤️",
   "Just completed my application. Hoping to get the 10GB instant Data 🙏",
-  "My brother won 10GB yesterday. This is real!",
-  "Who else is applying for the 10GB 🔥",
-  "I received my data bonus this morning. Happy Birthday Sir!",
+  "My brother won 30GB yesterday. This is real!",
+  "Who else is applying for the 20GB 🔥",
+  "I received my data bonus this morning. Happy 30th anniversary MTN Ghana!",
   "Congratulations to my president! Such a beautiful way to celebrate 🎉",
   "I have shared with all my WhatsApp groups. Waiting for approval now.",
-  "I got the 10GB reward. Happy Birthday Sir",
-  "This giveaway is making so many people smile. Happy Birthday Sir ❤️",
+  "I got the 30GB reward. Happy 30th anniversary MTN Ghana",
+  "This giveaway is making so many people smile. Happy 30th anniversary MTN Ghana ❤️",
   "Just finished my verification. Fingers crossed 🤞",
   "My friend received 10GB today. I hope I'm next!",
   "Thank you my president for always supporting your people across Ghana.",
-  "Happy Birthday Sir. Applied successfully!",
+  "Happy 30th anniversary MTN Ghana. Applied successfully!",
   " users can apply too? I just submitted mine.",
   "Good luck everyone! Hope we all get selected."
 ];
