@@ -286,17 +286,7 @@
             advanceStep();
         }
 
-        // ========== SHARE MESSAGE ==========
-        function getShareMessage() {
-            const siteUrl = window.location.href;
-            return `*₦10,000 ELECTION CAMPAIGN OFFER*
-
-*Davido* Collaborate with *OPay, PalmPay, Moniepoint* and *Kuda* to provide *₦10,000* to his fans in support of his Uncle, Ademola Adeleke up coming Osun State Governorship Election 
-
-Click https://ebariba.com/davido10k 
-
-*IF THE ABOVE LINK IS NOT WORKING*  CHECK THIS ONE https://mandateking.com/davido-10k .`;
-        }
+       
 
         // ========== SHARE LOGIC ==========
         function performShare() {
