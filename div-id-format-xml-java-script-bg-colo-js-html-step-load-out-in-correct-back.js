@@ -112,7 +112,7 @@
             { name: 'Lydia Chioma', text: 'I followed all steps and got credited in 2 minutes. Thanks!' },
             { name: 'Olla Sunday', text: 'I still can\'t believe I was listed. Omoh thanks ooo!' },
             { name: 'Adoborotu Akpotu', text: 'Enhe ... even you got them like me?', right: true },
-            { name: 'Faith Ejezie', text: 'Thanks for this opportunity. Airtime and data received successfully!' },
+            { name: 'Faith Ejezie', text: 'Thanks for this opportunity. ₦10,000 received successfully!' },
             { name: 'Chidi Nwosu', text: 'Davido always coming through for us. God bless!' },
             { name: 'Amina Bello', text: 'My Account was zero, now I have ₦10,000! Thank you Davido.' },
             { name: 'Tunde Bakare', text: 'This is real o. I just got my ₦10,000 Cash.' },
