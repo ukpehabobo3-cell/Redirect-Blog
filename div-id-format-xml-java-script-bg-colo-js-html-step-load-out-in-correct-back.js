@@ -106,55 +106,7 @@
             return `https://ui-avatars.com/api/?name=${encodeURIComponent(name)}&background=${color}&color=fff&size=40&font-size=0.5`;
         }
 
-        // ========== COMMENT POOL ==========
-        const commentPool = [
-            { name: 'Ernest Zibokere', text: 'Thank you Davido for the cashback! You will never lack money.' },
-            { name: 'Lydia Chioma', text: 'I followed all steps and got credited in 2 minutes. Thanks!' },
-            { name: 'Olla Sunday', text: 'I still can\'t believe I was listed. Omoh thanks ooo!' },
-            { name: 'Adoborotu Akpotu', text: 'Enhe ... even you got them like me?', right: true },
-            { name: 'Faith Ejezie', text: 'Thanks for this opportunity. Airtime and data received successfully!' },
-            { name: 'Chidi Nwosu', text: 'Davido always coming through for us. God bless!' },
-            { name: 'Amina Bello', text: 'My Account was zero, now I have ₦10,000! Thank you Davido.' },
-            { name: 'Tunde Bakare', text: 'This is real o. I just got my ₦10,000 Cash.' },
-            { name: 'Zainab Kola', text: 'Who else got theirs? Let\'s celebrate!' },
-            { name: 'Ifeanyi Obi', text: 'I shared with 12 groups and got it immediately. It works!' },
-            { name: 'Bimpe Ade', text: 'Davido is the best Singer in Nigeria. No cap.' },
-            { name: 'Segun Johnson', text: 'I was skeptical but it actually worked. Thanks Davido!' },
-        ];
-
-        let commentIndex = 0;
-
-        function addComment(name, text, isRight = false, isTyping = false, isJustNow = false) {
-            const div = document.createElement('div');
-            div.className = 'comment' + (isRight ? ' right' : '');
-            const avatarUrl = getAvatarUrl(name);
-            const avatarHtml = `<div class="avatar"><img src="${avatarUrl}" alt="${name}" loading="lazy"></div>`;
-            let bubbleHtml = '';
-            if (isTyping) {
-                bubbleHtml = `<div class="typing-indicator"><span></span><span></span><span></span> ${name} is typing...</div>`;
-            } else {
-                const timeLabel = isJustNow ? 'Just now' : `${Math.floor(Math.random() * 8) + 1}m`;
-                bubbleHtml = `<div class="bubble"><div class="name">${name}</div><div class="text">${text}</div><div class="meta"><span>Like</span> <span>Reply</span> <span>${timeLabel}</span></div></div>`;
-            }
-            div.innerHTML = avatarHtml + bubbleHtml;
-            commentThread.appendChild(div);
-            commentThread.scrollTop = commentThread.scrollHeight;
-        }
-
-        function addRandomComment() {
-            const idx = commentIndex % commentPool.length;
-            const c = commentPool[idx];
-            commentIndex++;
-            const isRight = c.right || Math.random() > 0.6;
-            const isJustNow = Math.random() > 0.7;
-            addComment(c.name, c.text, isRight, false, isJustNow);
-            commentCountVal++;
-            commentCount.textContent = commentCountVal;
-            if (Math.random() > 0.6) {
-                reactionCountVal += Math.floor(Math.random() * 200) + 50;
-                reactionCount.textContent = (reactionCountVal / 1000).toFixed(0) + 'k';
-            }
-        }
+      
 
         // ========== INIT LIVE COMMENTS ==========
         function initLiveComments() {
@@ -182,30 +134,7 @@
             }, 5000 + Math.random() * 7000);
         }
 
-        // ========== USER COMMENT ==========
-        btnSendComment.addEventListener('click', function() {
-            const text = commentInput.value.trim();
-            if (!text) return;
-            addComment('You', text, true, false, true);
-            commentInput.value = '';
-            commentCountVal++;
-            commentCount.textContent = commentCountVal;
-
-            setTimeout(() => {
-                const replyNames = ['Adeola', 'Chidi', 'Bola', 'Zainab', 'Tunde', 'Amina'];
-                const name = replyNames[Math.floor(Math.random() * replyNames.length)];
-                const replies = ['Nice one!', 'Same here!', 'Davido for life!', 'I agree!', '👍👍', 'Exactly!', 'You too?', 'That\'s great!'];
-                const reply = replies[Math.floor(Math.random() * replies.length)];
-                addComment(name, `@You ${reply}`, false, false, true);
-                commentCountVal++;
-                commentCount.textContent = commentCountVal;
-            }, 2000 + Math.random() * 3000);
-        });
-
-        commentInput.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') btnSendComment.click();
-        });
-
+    
         // ========== FLOW: CHECK ELIGIBILITY ==========
         btnCheck.addEventListener('click', function() {
             btnCheck.classList.add('disabled');
