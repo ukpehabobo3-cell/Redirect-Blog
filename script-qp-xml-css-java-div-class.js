@@ -23,18 +23,18 @@
     "#38BDF8","#FB923C","#4ADE80","#C084FC","#F97316","#2DD4BF"];
  
   const TOP_COMMENTS = [
-  "I just received my ₦5,000 airtime! Thank you Peller ❤️",
+  "I just received my ₦5,000 airtime! Thank you Zlatan ❤️",
   "Just completed my application. Hoping to get the ₦5,000 instant Airtime 🙏",
   "My brother won 10GB + ₦5,000 airtime yesterday. This is real!",
   "Who else is applying for the ₦5,000 Airtime 🔥",
   "I received my data bonus this morning. Thanks for this giveaway!",
-  "Congratulations to Peller & Jarvis! Such a beautiful way to celebrate 🎉",
+  "Congratulations to Zlatan & his wife! Such a beautiful way to celebrate 🎉",
   "I have shared with all my WhatsApp groups. Waiting for approval now.",
   "I got the 10GB + ₦5,000 airtime reward. God bless you all!",
   "This giveaway is making so many Nigerians smile. ❤️",
   "Just finished my verification. Fingers crossed 🤞",
   "My friend received ₦5,000 today. I hope I'm next!",
-  "Thank you Peller  for always supporting your fans across Nigeria.",
+  "Thank you Zlatan  for always supporting your fans across Nigeria.",
   "I can't believe this is happening. Applied successfully!",
   "MTN users can apply too? I just submitted mine.",
   "Good luck everyone! Hope we all get selected."
@@ -42,14 +42,14 @@
 
 const REPLIES = [
   "Congratulations! I just got mine too. 🎉",
-  "Yes, it's available for MTN, Airtel, Glo and 9mobile.",
+  "Yes, it's available for MTN and Airtel .",
   "I received my reward after completing the verification.",
   "Same here! Wishing everyone good luck 🙏",
   "I got the 10GB data package yesterday.",
   "I hope I get the ₦5,000 cash transfer 🤞",
   "Thanks for confirming. I'm applying now.",
   "I just shared to my WhatsApp groups too ",
-  "Congratulations to Peller & Jarvis! ❤️",
+  "Congratulations to Zlatan & his wife! ❤️",
   "This is one of the best fan giveaways this year.",
   "Can't wait to receive my reward. Good luck everyone! 🔥"
 ];
